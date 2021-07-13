@@ -23,11 +23,13 @@ const Thumbnail = forwardRef(({ result }, ref) => {
                 <p className="flex items-center opacity-0 group-hover:opacity-100">
                     {result.media_type && `${result.media_type} .`}{""}
                     {result.release_date || result.first_air_date} .{""}
-                    <ThumbUpIcon className="h-5 mx-2"/>{result.vote_count}
+                    <ThumbUpIcon className="h-5 mx-2 " />{result.vote_count}
                 </p>
             </div>
 
         </div>
     )
-})
+});
+Thumbnail.displayName = 'Thumbnail';
+
 export default Thumbnail
