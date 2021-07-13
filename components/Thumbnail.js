@@ -14,9 +14,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
                    }
                    height={1000}
                    width={1920}
-                   alt=""
-
-            />
+                   alt="picha" />
             <div className="p-2">
                 <p className="truncate max-w-md">{result.overview}</p>
                 <h2 className="mt-1 text-2xl text-white transition-all
