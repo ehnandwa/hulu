@@ -22,7 +22,7 @@ function Header() {
             </div>
             <Image src="https://links.papareact.com/ua6"
                    className="object-contain"
-                   width={200} height={100} alt="picha"/>
+                   width={200} height={100} alt=""/>
         </header>
     )
 }
